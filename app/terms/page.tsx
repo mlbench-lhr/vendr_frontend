@@ -68,7 +68,7 @@ export default function TermsPage() {
       <h2>12. Contact</h2>
       <p>
         For questions regarding these terms, contact:{' '}
-        <span className="text-gray-300">support@vendr.app</span>
+        <span className="text-gray-300">support@vendrtracker.vercel.app</span>
       </p>
     </article>
   );

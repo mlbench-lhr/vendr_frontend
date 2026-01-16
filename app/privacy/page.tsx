@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
       <h2>9. Contact Us</h2>
       <p>
         For any privacy concerns, please contact us at:{' '}
-        <span className="text-gray-300">support@vendr.app</span>
+        <span className="text-gray-300">support@vendrtracker.vercel.app</span>
       </p>
     </article>
   );
