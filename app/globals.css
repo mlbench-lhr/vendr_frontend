@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #000000;
+  --card: #0a0a0a;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #226bf7;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  background: radial-gradient(120% 120% at 0% 0%, #0e1726 0%, #0b1324 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow:
+    0 10px 25px rgba(2, 8, 23, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+}
+
+.prose {
+  @apply leading-7;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  @apply font-semibold text-white;
+}
+
+.prose p,
+.prose li {
+  @apply text-gray-200;
+}
+
+.link {
+  @apply text-brand hover:text-brand-dark underline underline-offset-4;
+}
